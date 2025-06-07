@@ -28,7 +28,7 @@ FLutter를 이용하여 개발한 스터디 앱입니다. 스터디장은 출석
 
 1. 저장소 클론:
 ```bash
-git clone [repository-url]
+git clone [https://github.com/syh1e/FullStack.git]
 cd myapp
 ```
 2. 클라이언트 설정:

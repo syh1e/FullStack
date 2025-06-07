@@ -1,21 +1,6 @@
-# Study App 프로젝트
+# 스터디 앱
 
-## 프로젝트 개요
-Study App은 학습 시간을 효율적으로 관리하고 추적할 수 있는 통합 솔루션입니다. Flutter 기반의 크로스 플랫폼 클라이언트와 Python Flask 기반의 서버로 구성되어 있습니다.
-
-## 프로젝트 구조
-```
-myapp/
-├── client/         # Flutter 클라이언트 애플리케이션
-│   ├── lib/       # 소스 코드
-│   ├── assets/    # 리소스 파일
-│   └── ...
-│
-└── server/         # Python Flask 서버
-    ├── models/    # 데이터베이스 모델
-    ├── services/  # 비즈니스 로직
-    └── ...
-```
+FLutter를 이용하여 개발한 스터디 앱입니다. 스터디장은 출석인증 코드를 생성하여 스터디원의 출결 현황을 확인할 수 있습니다.
 
 ## 기술 스택
 
@@ -43,10 +28,9 @@ myapp/
 
 1. 저장소 클론:
 ```bash
-git clone [repository-url]
+git clone [https://github.com/syh1e/FullStack.git]
 cd myapp
 ```
-
 2. 클라이언트 설정:
 ```bash
 cd client
@@ -67,24 +51,15 @@ python app.py
 
 ### 클라이언트
 - 사용자 인증 (로그인/회원가입)
-- 학습 세션 관리
-- 학습 통계 및 분석
-- 알림 설정
-- 다크 모드 지원
+- 출결 현황 확인
+- 스터디 생성
+- 스터디 가입
 
 ### 서버
 - RESTful API 제공
 - 사용자 관리
-- 학습 데이터 처리
-- 통계 분석
+- 출결 인증 관련
 - 데이터베이스 관리
-
-## 개발 가이드
-
-### 코드 스타일
-- Flutter/Dart 공식 스타일 가이드 준수
-- Python PEP 8 스타일 가이드 준수
-- ESLint 및 Flutter Lint 사용
 
 ### 테스트
 ```bash
@@ -100,13 +75,10 @@ python -m pytest
 ## 배포
 
 ### 클라이언트 배포
-- Android: Google Play Store
-- iOS: App Store
 - Web: 웹 서버
 
 ### 서버 배포
 - Docker 컨테이너
-- 클라우드 서비스 (AWS, GCP, Azure 등)
 
 ## 문제 해결
 - 클라이언트: `flutter doctor` 실행
@@ -124,5 +96,5 @@ python -m pytest
 이 프로젝트는 MIT 라이선스 하에 배포됩니다.
 
 ## 연락처
-- 이메일: [이메일 주소]
-- GitHub: [GitHub 프로필] 
+- 이메일: [syh040113@khu.ac.kr]
+- GitHub: [syh1e] 
